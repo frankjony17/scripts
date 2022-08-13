@@ -1,0 +1,7 @@
+# Git Signature
+git log
+git rebase --exec 'git commit --amend --no-edit -n -S' -i eff0e3d78c33c44ac897d193098dfaac243c2f36
+git push -f
+
+# Join commit
+git cherry-pick abb26be2a d339d065a bbdcafe5d f354a0cce dd9c9f620

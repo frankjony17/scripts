@@ -1,0 +1,3 @@
+# How to kill a process on a port on ubuntu
+sudo lsof -t -i:9001
+sudo kill -9 $(sudo lsof -t -i:9001)
