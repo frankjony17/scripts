@@ -2,3 +2,5 @@ docker run --name basic-postgres --rm -e POSTGRES_USER=username -e POSTGRES_PASS
 
 docker build -t app .
 docker run -p 8000:8000 app
+
+docker exec -it expenses_list bash
